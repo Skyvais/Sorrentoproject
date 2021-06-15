@@ -1,0 +1,33 @@
+.main-footer {
+    background-color:rgb(64, 95, 28);
+    bottom: 0; 
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.copyright {
+    color: rgba(199, 184, 183, 0.849);
+    /* text-align: right; */
+    padding: 10px;
+    grid-column-start: 3;
+    justify-self: end;
+    align-self: center;
+    margin: 5px;
+
+}
+.social-nav {
+    align-self: center;
+    grid-column-start:1;
+    /* grid-auto-rows: minmax(100px, auto); */
+}
+.social-nav a {
+    color: rgb(199, 184, 183);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    padding: 5px;
+    align-content: center;
+}
+.social-nav a:hover {
+    color: rgb(49, 146, 202);
+}

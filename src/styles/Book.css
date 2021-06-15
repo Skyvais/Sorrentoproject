@@ -1,0 +1,13 @@
+.Book{
+    max-width: 1024px;
+    margin: 1em auto;
+    text-align: left;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+.babune li:hover {
+    font-weight:bold;
+}
