@@ -31,7 +31,6 @@ export function Contact(props) {
 
                 <div className="card">
                     <h2>Find us</h2>
-                  { /* <img src={Sorrentomap} text="Map" />*/}
                   <iframe width="500" height="350" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25032.539483544126!2d144.73234258728078!3d-38.34742120454251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad4357b0e516369%3A0xf1dce538da37e359!2s42%20Holyrood%20Ave%2C%20Sorrento%20VIC%203943!5e0!3m2!1sen!2sau!4v1622625319455!5m2!1sen!2sau"  allowfullscreen="" loading="lazy"></iframe>
                   <h3>Address</h3>
                     <p> 42 Holyrood Avenue</p>
